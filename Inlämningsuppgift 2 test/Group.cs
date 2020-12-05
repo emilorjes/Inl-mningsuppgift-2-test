@@ -40,43 +40,43 @@ namespace Inlämningsuppgift_2_test
         public string Name
         {
             get { return name; }                         // Går att använda lamba uttryck. Använder dessa för att göra det tydligare att förstå
-            set { name = value; }
+            set { name = "Fullständigt namn: " + value; } // Sätter string i set så jag inte behöver skriva ut det flera gånger och det blir exat samma för varje person
         }
         //----------------------------------------
         public string HomeTown
         {
             get { return homeTown; }
-            set { homeTown = value; }
+            set { homeTown = "Bor i: " + value; }
         }
         //----------------------------------------
         public string Hobby
         {
             get { return hobby; }
-            set { hobby = value; }
+            set { hobby = "Hobby: " + value; }
         }
         //----------------------------------------
         public string FavoriteFood
         {
             get { return favoriteFood; }
-            set { favoriteFood = value; }
+            set { favoriteFood = "Favoritmat: " + value; }
         }
         //----------------------------------------
         public string FavoriteDrink
         {
             get { return favoriteDrink; }
-            set { favoriteDrink = value; }
+            set { favoriteDrink = "Favoritdryck: " + value; }
         }
         //----------------------------------------
         public string FavoriteBand
         {
             get { return favoriteBand; }
-            set { favoriteBand = value; }
+            set { favoriteBand = "Favoritband: " + value; }
         }
         //----------------------------------------
         public string CodeMotivation
         {
             get { return codeMotivation; }
-            set { codeMotivation = value; }
+            set { codeMotivation = "Kod motivation: " + value; }
         }
         //----------------------------------------
 

@@ -102,16 +102,22 @@ namespace Inlämningsuppgift_2_test
                     GroupMember.FredrikInfo();
                     break;
                 case 5:
+                    GroupMember.HåkanInfo();
                     break;
                 case 6:
+                    GroupMember.JosefineInfo();
                     break;
                 case 7:
+                    GroupMember.MattiasInfo();
                     break;
                 case 8:
+                    GroupMember.NicklasInfo();
                     break;
                 case 9:
+                    GroupMember.TinaInfo();
                     break;
                 case 10:
+                    GroupMember.TobiasInfo();
                     break;
             }
         }
