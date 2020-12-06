@@ -6,6 +6,7 @@ namespace Inlämningsuppgift_2_test
 {
     class GroupMember : Group
     {
+      
         //----------------------------------------
         // Constructor
         //----------------------------------------
@@ -65,31 +66,13 @@ namespace Inlämningsuppgift_2_test
             List<GroupMember> emilInfo = new List<GroupMember>() { Emil };
             foreach (var groupMember in emilInfo)
             {
-                Console.WriteLine(Emil.Name); // Räcker att skriva så här och då behövs ingen forech
-                Console.WriteLine(groupMember.Name); // Ligger i en lista och foreach är bra att använda
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Age);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Height);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.HomeTown);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.NumberOfKids);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteFood);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteDrink);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteBand);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Hobby);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.CodeMotivation);
+                PrintMemberInfo(groupMember);
             }
+          
         }
         //----------------------------------------
 
-
+        
 
 
         //----------------------------------------
@@ -114,17 +97,9 @@ namespace Inlämningsuppgift_2_test
             List<GroupMember> bennyInfo = new List<GroupMember>() { Benny };
             foreach (var groupMember in bennyInfo)
             {
-                Console.WriteLine(groupMember.Name);
-                Console.WriteLine(groupMember.Age);
-                Console.WriteLine(groupMember.Height);
-                Console.WriteLine(groupMember.HomeTown);
-                Console.WriteLine(groupMember.NumberOfKids);
-                Console.WriteLine(groupMember.FavoriteFood);
-                Console.WriteLine(groupMember.FavoriteDrink);
-                Console.WriteLine(groupMember.FavoriteBand);
-                Console.WriteLine(groupMember.Hobby);
-                Console.WriteLine(groupMember.CodeMotivation);
+                PrintMemberInfo(groupMember);
             }
+
         }
         //----------------------------------------
 
@@ -154,16 +129,7 @@ namespace Inlämningsuppgift_2_test
             List<GroupMember> dennisInfo = new List<GroupMember>() { Dennis };
             foreach (var groupMember in dennisInfo)
             {
-                Console.WriteLine(groupMember.Name);
-                Console.WriteLine(groupMember.Age);
-                Console.WriteLine(groupMember.Height);
-                Console.WriteLine(groupMember.HomeTown);
-                Console.WriteLine(groupMember.NumberOfKids);
-                Console.WriteLine(groupMember.FavoriteFood);
-                Console.WriteLine(groupMember.FavoriteDrink);
-                Console.WriteLine(groupMember.FavoriteBand);
-                Console.WriteLine(groupMember.Hobby);
-                Console.WriteLine(groupMember.CodeMotivation);
+                PrintMemberInfo(groupMember);
             }
         }
         //----------------------------------------
@@ -193,16 +159,7 @@ namespace Inlämningsuppgift_2_test
             List<GroupMember> fredrikInfo = new List<GroupMember>() { Fredrik };
             foreach (var groupMember in fredrikInfo)
             {
-                Console.WriteLine(groupMember.Name);
-                Console.WriteLine(groupMember.Age);
-                Console.WriteLine(groupMember.Height);
-                Console.WriteLine(groupMember.HomeTown);
-                Console.WriteLine(groupMember.NumberOfKids);
-                Console.WriteLine(groupMember.FavoriteFood);
-                Console.WriteLine(groupMember.FavoriteDrink);
-                Console.WriteLine(groupMember.FavoriteBand);
-                Console.WriteLine(groupMember.Hobby);
-                Console.WriteLine(groupMember.CodeMotivation);
+                PrintMemberInfo(groupMember);
             }
         }
         //----------------------------------------
@@ -232,28 +189,12 @@ namespace Inlämningsuppgift_2_test
             List<GroupMember> håkanInfo = new List<GroupMember>() { Håkan };
             foreach (var groupMember in håkanInfo)
             {
-               
-                Console.WriteLine(groupMember.Name); // Ligger i en lista och foreach är bra att använda
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Age);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Height);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.HomeTown);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.NumberOfKids);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteFood);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteDrink);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteBand);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Hobby);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.CodeMotivation);
+                PrintMemberInfo(groupMember);
             }
         }
+
+       
+
         //----------------------------------------
 
 
@@ -281,26 +222,7 @@ namespace Inlämningsuppgift_2_test
             List<GroupMember> josefineInfo = new List<GroupMember>() { Josefine };
             foreach (var groupMember in josefineInfo)
             {
-
-                Console.WriteLine(groupMember.Name); // Ligger i en lista och foreach är bra att använda
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Age);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Height);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.HomeTown);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.NumberOfKids);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteFood);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteDrink);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteBand);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Hobby);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.CodeMotivation);
+                PrintMemberInfo(groupMember);
             }
         }
         //----------------------------------------
@@ -330,26 +252,7 @@ namespace Inlämningsuppgift_2_test
             List<GroupMember> mattiasInfo = new List<GroupMember>() { Mattias };
             foreach (var groupMember in mattiasInfo)
             {
-
-                Console.WriteLine(groupMember.Name); // Ligger i en lista och foreach är bra att använda
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Age);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Height);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.HomeTown);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.NumberOfKids);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteFood);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteDrink);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteBand);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Hobby);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.CodeMotivation);
+                PrintMemberInfo(groupMember);
             }
         }
         //----------------------------------------
@@ -379,26 +282,7 @@ namespace Inlämningsuppgift_2_test
             List<GroupMember> nicklasInfo = new List<GroupMember>() { Nicklas };
             foreach (var groupMember in nicklasInfo)
             {
-
-                Console.WriteLine(groupMember.Name); // Ligger i en lista och foreach är bra att använda
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Age);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Height);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.HomeTown);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.NumberOfKids);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteFood);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteDrink);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteBand);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Hobby);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.CodeMotivation);
+                PrintMemberInfo(groupMember);
             }
         }
         //----------------------------------------
@@ -428,26 +312,7 @@ namespace Inlämningsuppgift_2_test
             List<GroupMember> tinaInfo = new List<GroupMember>() { Tina };
             foreach (var groupMember in tinaInfo)
             {
-
-                Console.WriteLine(groupMember.Name); // Ligger i en lista och foreach är bra att använda
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Age);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Height);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.HomeTown);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.NumberOfKids);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteFood);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteDrink);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteBand);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Hobby);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.CodeMotivation);
+                PrintMemberInfo(groupMember);
             }
         }
         //----------------------------------------
@@ -466,7 +331,7 @@ namespace Inlämningsuppgift_2_test
             FavoriteFood = "Kött",
             FavoriteDrink = "Öl",
             FavoriteBand = "The Black Dahlia Murder",
-            CodeMotivation = "Få ett bra jobb som jag tycker om",
+            CodeMotivation = " Att kunna skapa något användbart för mig själv och andra och att ha möjligheten att arbeta med det",
             Age = 31,
             Height = 192,
             NumberOfKids = 2
@@ -478,28 +343,65 @@ namespace Inlämningsuppgift_2_test
             foreach (var groupMember in tobiasInfo)
             {
 
-                Console.WriteLine(groupMember.Name); // Ligger i en lista och foreach är bra att använda
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Age);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Height);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.HomeTown);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.NumberOfKids);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteFood);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteDrink);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.FavoriteBand);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.Hobby);
-                Console.WriteLine();
-                Console.WriteLine(groupMember.CodeMotivation);
+                PrintMemberInfo(groupMember);
             }
+
         }
         //----------------------------------------
+        private static void PrintMemberInfo(GroupMember groupMember)
+        {
+       
+            Console.Write("Fullständigt namn: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(groupMember.Name);
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine();
+            Console.Write("Ålder: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"{groupMember.Age} år");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine();
+            Console.Write("Längd: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"{groupMember.Height} cm");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine();
+            Console.Write("Bor i: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(groupMember.HomeTown);
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine();
+            Console.Write("Antal barn: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"{groupMember.NumberOfKids} st");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine();
+            Console.Write("Favoritmat: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(groupMember.FavoriteFood);
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine();
+            Console.Write("Favoritdryck: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(groupMember.FavoriteDrink);
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine();
+            Console.Write("Favoritband: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(groupMember.FavoriteBand);
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine();
+            Console.Write("Hobby: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(groupMember.Hobby);
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine();
+            Console.Write("Kod motivation: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(groupMember.CodeMotivation);
+            Console.ForegroundColor = ConsoleColor.Blue;
+
+        }
 
 
 

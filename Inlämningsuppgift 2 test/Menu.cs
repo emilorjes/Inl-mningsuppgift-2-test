@@ -35,6 +35,7 @@ namespace Inlämningsuppgift_2_test
                         MembersMenu(participantList);
                         break;
                     case 2:
+                        DeleteMember(participantList);
                         break;
                     case 3:
                         Exit();
@@ -50,6 +51,7 @@ namespace Inlämningsuppgift_2_test
 
         private static void LoginCode()
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
             string secretCode = "norrlänningarna";
             string loginCode;
             Console.WriteLine("Ange basgruppens kod för att fortsätta");
@@ -69,20 +71,15 @@ namespace Inlämningsuppgift_2_test
             Console.Clear();
         }
 
-        private static void MembersMenu(List<string> participantList)
+         private static void MembersMenu(List<string> participantList)
         {
             Console.WriteLine($"Deltagare: {string.Join(',', participantList)}");
-            Console.WriteLine("Meny");
-            Console.WriteLine("1.  Benny");
-            Console.WriteLine("2.  Dennis");
-            Console.WriteLine("3.  Emil");
-            Console.WriteLine("4.  Fredrik");
-            Console.WriteLine("5.  Håkan");
-            Console.WriteLine("6.  Josefine");
-            Console.WriteLine("7.  Mattias ");
-            Console.WriteLine("8.  Nicklas");
-            Console.WriteLine("9.  Tina");
-            Console.WriteLine("10. Tobias");
+            int i = 1;
+            foreach (var member in participantList)
+            {
+                Console.WriteLine($"{i}. {member}");
+                i++;
+            }
             Console.Write("Välj menyval: ");
             int memberChoice = Convert.ToInt32(Console.ReadLine());
             Console.Clear();
@@ -125,6 +122,54 @@ namespace Inlämningsuppgift_2_test
         {
             Console.WriteLine("Tack för att du använt mitt program!");
             Environment.Exit(0);
+        }
+        private static void DeleteMember(List<string> participantList)
+        {
+            Console.WriteLine("Välj en deltagare du vill ta bort");
+            int i = 1;
+            foreach (var member in participantList)
+            {
+                Console.WriteLine($"{i}. {member}");
+                i++;
+            }
+            Console.Write("Ta bort: ");
+            int deleteMember = Convert.ToInt32(Console.ReadLine());
+
+            switch (deleteMember)
+            {
+                case 1:
+                    participantList.RemoveAt(0);
+                    break;
+                case 2:
+                    participantList.RemoveAt(1);
+                    break;
+                case 3:
+                    participantList.RemoveAt(2); 
+                    break;
+                case 4:
+                    participantList.RemoveAt(3); 
+                    break;
+                case 5:
+                    participantList.RemoveAt(4); 
+                    break;
+                case 6:
+                    participantList.RemoveAt(5); 
+                    break;
+                case 7:
+                    participantList.RemoveAt(6); 
+                    break;
+                case 8:
+                    participantList.RemoveAt(7); 
+                    break;
+                case 9:
+                    participantList.RemoveAt(8); 
+                    break;
+                case 10:
+                    participantList.RemoveAt(9); 
+                    break;
+
+            }
+
         }
     }
 }

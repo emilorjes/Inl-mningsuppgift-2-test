@@ -11,6 +11,7 @@ namespace Inlämningsuppgift_2_test
         //----------------------------------------
         // Fields (string)
         //----------------------------------------
+        
         private string name;
         private string homeTown;
         private string hobby;
@@ -37,46 +38,47 @@ namespace Inlämningsuppgift_2_test
         //----------------------------------------
         // Property (string)
         //----------------------------------------
+        
         public string Name
         {
             get { return name; }                         // Går att använda lamba uttryck. Använder dessa för att göra det tydligare att förstå
-            set { name = "Fullständigt namn: " + value; } // Sätter string i set så jag inte behöver skriva ut det flera gånger och det blir exat samma för varje person
+            set {  name = value; } // Sätter string i set så jag inte behöver skriva ut det flera gånger och det blir exat samma för varje person
         }
         //----------------------------------------
         public string HomeTown
         {
             get { return homeTown; }
-            set { homeTown = "Bor i: " + value; }
+            set { homeTown = value; }
         }
         //----------------------------------------
         public string Hobby
         {
             get { return hobby; }
-            set { hobby = "Hobby: " + value; }
+            set { hobby = value; }
         }
         //----------------------------------------
         public string FavoriteFood
         {
             get { return favoriteFood; }
-            set { favoriteFood = "Favoritmat: " + value; }
+            set { favoriteFood = value; }
         }
         //----------------------------------------
         public string FavoriteDrink
         {
             get { return favoriteDrink; }
-            set { favoriteDrink = "Favoritdryck: " + value; }
+            set { favoriteDrink = value; }
         }
         //----------------------------------------
         public string FavoriteBand
         {
             get { return favoriteBand; }
-            set { favoriteBand = "Favoritband: " + value; }
+            set { favoriteBand = value; }
         }
         //----------------------------------------
         public string CodeMotivation
         {
             get { return codeMotivation; }
-            set { codeMotivation = "Kod motivation: " + value; }
+            set { codeMotivation = value; }
         }
         //----------------------------------------
 
@@ -84,7 +86,7 @@ namespace Inlämningsuppgift_2_test
 
 
         //----------------------------------------
-        // Property (int)
+        // Property (int)                                // Ändra till string förr att kunna skriva meddelande i "set"??
         //----------------------------------------
         public int Age
         {
@@ -104,6 +106,7 @@ namespace Inlämningsuppgift_2_test
             set { numberOfKids = value; }
         }
         //----------------------------------------
-
+       
+        
     }
 }
