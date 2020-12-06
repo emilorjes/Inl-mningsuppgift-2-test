@@ -33,6 +33,7 @@ namespace Inlämningsuppgift_2_test
                 {
                     case 1:
                         MembersMenu(participantList);
+                        Console.ReadLine();
                         break;
                     case 2:
                         DeleteMember(participantList);
@@ -43,7 +44,7 @@ namespace Inlämningsuppgift_2_test
                     default:
                         break;
                 }
-                Console.ReadLine();
+            
                 Console.Clear();
             } while (true);
            
